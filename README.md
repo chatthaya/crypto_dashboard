@@ -45,14 +45,15 @@ The project emphasizes **Object-Oriented Programming (OOP)** for component struc
 Execute the main entry point script:
 
 ```bash
-python main.py
+python main.py 
+```
 
-
-🖱️ UI Interaction
+## 🖱️ UI Interaction
 - Toggle Details: Click the [Show/Hide] button on any price card (e.g., BTC/USDT) to expand the card and display the Candlestick Chart, Order Book, and Trades feed.
 - Graceful Shutdown: It is recommended to close the application using the standard window 'X' button. The CryptoDashboard class handles a graceful shutdown by properly closing all active WebSocket threads and saving the UI state.
 
-📂 Project StructureThe project follows a modular structure based on the Separation of Concerns principle:.
+## 📂 Project Structure
+The project follows a modular structure based on the Separation of Concerns principle:.
 ├── crypto_app/
 │   ├── api/
 │   │   └── binance_websocket.py    # Handles all WebSocket connections and threading.
@@ -68,12 +69,10 @@ python main.py
 ├── README.md
 └── requirements.txt                # Project dependencies.
 
-🤝 ContributionContributions are welcome! If you find a bug or have an idea for a feature, please feel free to:
+## 🤝 Contribution
+Contributions are welcome! If you find a bug or have an idea for a feature, please feel free to:
 1. Fork the repository.
 2. Create a new branch (git checkout -b feature/AmazingFeature).
 3. Commit your changes (git commit -m 'feat: Implement AmazingFeature').
 4. Push to the branch (git push origin feature/AmazingFeature).
 5. Open a Pull Request.
-
-📄 License[Specify the license under which your project is released, e.g., MIT License.]
-
